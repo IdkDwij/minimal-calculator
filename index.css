@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
 button {
     margin: 10px;
-    background-color: gray;
+    background-color: #1d1d1d;
     color: white;
     height: 50px;
     width: 50px;
     font-size: 150%;
     text-align: center;
     border-color: black;
-}
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: auto;
+}    
 input[type="text"] {
     height:50px;
     text-align:right;
@@ -16,7 +19,7 @@ input[type="text"] {
     background-color: rgba(255, 255, 255, .4);
     width:300px;
     max-width:100%;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 body {
     transform: translateX(40%);
