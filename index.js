@@ -3,6 +3,8 @@ function addtoinput(val){
 }
 function calculate() {
     var x = document.getElementById('textval').value;
+    x = x.replace(/÷/g,"/")
+    x = x.replace(/x/g,"*")
     var y = eval(x);
     document.getElementById('textval').value = y;
 }
